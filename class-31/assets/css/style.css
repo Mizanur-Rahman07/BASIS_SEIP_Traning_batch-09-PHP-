@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.background-ats{
+    background-attachment: fixed;
+}
+.background-res {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about_us {
+    height: 400px;
+    width: 100%;
+}
+.g_img img {
+    width: 290px;
+    height: 290px;
+    padding: 20px 10px;
+    transition: width 1s, height 3s, transform 1s;
+}
+
+.g_img img:hover{
+    height: 500px;
+    width: 500px;
+    transform: rotate(360deg);
+    padding: 0;
+    margin: auto;
+}
+
+.banner_page {
+    height: 305px;
+    width: 100%;
+}
+#Calculator{
+    width: 100%;
+    height: 850px;
+}
